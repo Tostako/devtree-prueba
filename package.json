@@ -1,0 +1,25 @@
+{
+  "name": "devtree",
+  "version": "1.0.0",
+  "description": "crear primer proyeto con express y typescript ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tostako/devtree-prueba.git"
+  },
+  "keywords": [
+    "tostako"
+  ],
+  "author": "tostako",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tostako/devtree-prueba/issues"
+  },
+  "homepage": "https://github.com/Tostako/devtree-prueba#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
