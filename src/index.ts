@@ -1,17 +1,8 @@
-import express from 'express'
-const app = express()
+import server from "./server"
 
-const port = process.env.port || 4000
-//ROUTING
-app.get('/', (req, res) => {
-    res.send('hola mundo')
+const port = process.env.port || 400
 
-})
-app.get('/ecommerce', (req, res) => {
-    res.send('entro a ecommerce')
-
-})
-app.listen(port, () => {
+server.listen(port, () => {
     console.log('servidor prendido en el puerto: ', port)
 
 })
