@@ -1,9 +1,11 @@
 import { Router } from 'express'
+import User from './models/User'
 const router = Router() 
 
 //ROUTING
-router.get('/auth/register', (req,res) => {
-    console.log("entro")
+router.post('/auth/register', async (req,res) => {
+    console.log(req.body)
+    await User.create(req.body)   
 })
 
 export default router
